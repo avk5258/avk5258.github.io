@@ -1,15 +1,23 @@
-﻿
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>index</title>
-            <body>
-    집에 가서 자고싶어요 심장이 두근두근.. 머리가 지끈지끈,,,,,, 3시간 자는건 사람이 할짓이 아녀<br>
-내일 챙길것.. 진통제,,, 진통제만... ㅋㅋㅋㅋㅋ 초콜릿..? 사탕..?<br>
-몬스터는 카페인 무리구,,, 껌은 있구 사탕은 내일 매점 ㄱ,,,<br>
-ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ전나 웃기내 ^^,,, 이야 이거 진짜 유료는 다르구나<br>
-신기하다 신기해 에디트 플러스는... 아니었어...
-
-</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
 </head>
+<body>
+    <script>
+        var filter="sin16|win32|win34|mac";
+        if (navigator.platform) {
+            if(0>filter.indexOf(navigator.platform.toLocaleLowerCase())){
+                alert('모바일입니다.');
+                location.href='mobile.html';
+            }else{
+                alert('pc입니다');
+                location.href='pc.html';
+            }
+        }
+    </script>
+</body>
 </html>
